@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --main-width: 840px;
     --aside-width: 20rem;
@@ -9,6 +15,20 @@
     --border-width: 1px;
     --main-image-width: 150px;
     --aside-image-width: 200px;
+}
+
+/* class section */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+aside {
+    width: 15rem;
+    text-align: right;
 }
 
 main {
@@ -30,7 +50,14 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position: relative;
+    top: auto;
+    left: 0%;
+}
+
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: auto;
